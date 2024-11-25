@@ -1,0 +1,148 @@
+/**
+ * Common styles
+ * Author: !Yasser El Aouati!
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+   html {
+      background-color: #dfdfdf;
+   }
+
+   body {
+      background-color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: small;
+   }
+   
+   /* ===========================================
+      Menu
+      =========================================== */
+   
+   nav {
+      flex: 1;
+   }
+   
+   nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+   }
+   
+   nav li {
+      display: inline;
+      margin-left: 20px;
+   }
+   
+   nav a {
+      color: #b52025;
+      text-decoration: none;
+      padding: 4px 7px;
+      transition: 0.3s;  
+   }
+   
+   nav a:hover,
+   nav .active {
+      background-color: #b52025;
+      color: #e2c7c8;
+   }
+   
+   /* ===========================================
+      Banner
+      =========================================== */
+   
+   #banner {
+      color: white;
+      opacity: 1;
+      border: 5px solid #b52025;
+      background-image: url(banner.jpg);
+      position: relative;
+      box-shadow: 0px 10px 5px #888;
+      background-color: hsla (0,0%,2% 0.5) 
+
+   }
+   
+   #banner::after {
+      content: '';
+      position: absolute; 
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 25%;
+   }
+   #banner p {
+      background-color: rgb(43, 37, 37,0.5);
+   }
+   
+   /* ===========================================
+      Main
+      =========================================== */
+
+      main h3 {
+         margin-bottom: 16px;
+         color:#b52025 ;
+         text-transform: uppercase;
+         font-family: 'Roboto', sans-serif;
+      }
+      #more h3::after {
+         content: '→';
+      }
+   .projects {
+      color: #b52025;
+   }  
+   
+   .newsletter, .newsletter p {
+      color: #b52025;
+   }
+   
+   input, textarea {
+      background-color: #fdeaeb;
+   }
+   
+   .submit-btn {
+      background-color: #b52025;
+      color: white;
+   }
+   
+   .more {
+      color: #b52025;
+      display: inline-block;
+      border: 1px solid #b52025;
+      padding: 8px 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      float: right;
+      width: 13%; 
+   }
+   
+   .more a {
+      text-decoration: none;
+      color: #b52025;
+   }
+   
+   .more a::after {
+      content: '»';
+      margin-left: 4px; 
+   }
+   #content section {
+      margin-bottom: 50px;
+   }
+   
+   /* ===========================================
+      Footer
+      =========================================== */
+   
+   footer {
+      height: 200px;
+      background-color: blue; /* For browsers that do not support gradients */
+      background-image: linear-gradient(gray, lightgray, white);
+      text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
