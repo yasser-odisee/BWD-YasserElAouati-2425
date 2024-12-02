@@ -1,0 +1,163 @@
+
+   #banner {
+      background-image: url(../img/banner.jpg);
+      background-size: cover;
+   }
+   
+   #banner .wrapper {
+      min-height: 300px;
+   }
+   
+   .banner_box .btn-cta {
+      font-size: 18px;
+      padding: 14px 30px;  
+      margin-top: 90px;
+      margin-left: 1000px; 
+      background-color: #00796b; 
+      color: white;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease; 
+   }
+   
+   .banner_box .btn-cta:hover {
+      background-color: #005a4e; 
+      color: white; 
+      cursor: pointer;
+   }
+   
+   .banner_box p {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      text-align: right;
+      padding-right: 70px;
+      padding: top 90px; ;
+   }
+   
+   header .wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .logo h1 a {
+      color: #333;
+      margin-left: 60px;
+   }
+   
+   nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   
+   nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+   }
+   
+   nav li {
+      display: inline-block;
+      margin: 0 10px;
+   }
+   
+   nav a {
+      text-decoration: none;
+      color: #000; 
+      padding: 10px; 
+   }
+   
+
+   main {
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   main .wrapper {
+      display: flex;
+      justify-content: space-between; 
+   }
+   
+
+   .mainleft {
+      flex: 2;
+      box-sizing: border-box;
+      width: 70%;
+      margin-right: 5px;
+   }
+   
+   #gallery ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px; 
+   }
+   
+   #gallery ul li {
+      flex: 1 0 calc(25% - 20px); 
+      margin-bottom: 20px;
+   }
+   
+   #gallery img {
+      height: 120px;
+      width: 140px;
+      object-fit: cover; 
+   }
+   
+   .workshop .thumb {
+      float: right;
+      height: 150px;
+   }
+   
+   /* Right column */
+   .mainright {
+      flex: 1;
+      box-sizing: border-box;
+      width: 30%;
+   }
+   
+   .workshop .date {
+      border: 1px solid #ccc;
+      width: 80px;
+      text-align: center;
+   }
+   
+   .workshop .day {
+      font-size: 60px;
+      line-height: 1em;
+   }
+   
+   .readmore {
+      display: block;
+      margin-top: 10px;
+   }
+   
+   /* Footer */
+   footer {
+      width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+   footer .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: left;
+   }
+   
+   #social_icons {
+      align-items: right;
+      list-style: none;
+      display: flex;
+   }
+   
+   #social_icons li {
+      margin-right: 10px;
+   }
+   
+   #social_icons img {
+      max-width: 40px;
+   }
+   

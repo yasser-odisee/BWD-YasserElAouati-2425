@@ -1,0 +1,178 @@
+body {
+   margin: 0;
+   padding: 0;
+   color: #333;
+   background-color: #f7f9f9;
+}
+
+.wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+header {
+   background-color: #aad6c4;
+   padding: 20px 0;
+}
+
+header .wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header .logo {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+header .logo h1 {
+   font-family: 'Special Elite', cursive;
+   color: #333;
+   margin: 0;
+}
+
+header .logo p {
+   margin: 5px 0 0;
+   color: #555;
+   font-size: 14px;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   justify-content: flex-end;
+}
+
+nav ul li {
+   margin: 0 15px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #333;
+   font-size: 16px;
+}
+
+nav ul li.active a {
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+address {
+   font-weight: bold;
+}
+
+address a {
+   font-weight: normal;
+   text-decoration: none;
+}
+
+#main_bottom {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   align-items: flex-start;
+}
+
+.info__form {
+   flex: 1;
+   background-color: #ffffff;
+   padding: 20px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+   box-sizing: border-box;
+   min-width: 300px;
+}
+
+.info__form p {
+   margin-bottom: 15px;
+}
+
+.info__form label {
+   display: block;
+   font-size: 14px;
+   margin-bottom: 5px;
+   font-weight: bold;
+}
+
+.info__form input,
+.info__form select,
+.info__form textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   font-size: 16px;
+   box-sizing: border-box;
+}
+
+.info__form input[type="date"],
+.info__form input[type="time"] {
+   max-width: 200px;
+}
+
+.info__form textarea {
+   height: 100px;
+}
+
+.info__form button {
+   background-color: #4caf50;
+   color: white;
+   border: none;
+   padding: 10px 15px;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 4px;
+   width: auto;
+}
+
+.info__form button:hover {
+   background-color: #45a049;
+}
+
+iframe.maps {
+   flex: 0.8;
+   max-width: 500px;
+   height: 500px;
+   border: 0;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+footer {
+   background-color: #f7f9f9;
+   color: white;
+   padding: 20px 0;
+}
+
+footer .wrapper {
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+footer div {
+   text-align: left;
+}
+
+footer ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   gap: 15px;
+}
+
+footer ul li a img {
+   width: 30px;
+   height: 30px;
+}
